@@ -1,8 +1,19 @@
+
 {
-  "mcpServers": {
-    "mcp-docs": {
-      "type": "http",
-      "url": "https://modelcontextprotocol.io/mcp"
+  "name": "Security Orchestra",
+  "description": "Data center power infrastructure intelligence - generator sizing with real Generac/Cummins/CAT specs (NFPA 110 compliant) and utility interconnect modeling for 9 major US utilities (Dominion, PG&E, ComEd, Georgia Power, APS, Oncor, Duke Energy, SCE, Xcel). Nationwide coverage from Northern Virginia to Phoenix.",
+  "repository": "https://github.com/RobotFleet-HQ/security-orchestra",
+  "transport": ["sse"],
+  "tools": [
+    {
+      "name": "generator_sizing",
+      "description": "Size generators for data center loads with NFPA 110 compliance, altitude/temperature derating, fuel calculations, tank sizing, and installed cost estimates"
+    },
+    {
+      "name": "utility_interconnect",
+      "description": "Analyze utility interconnect requirements, timelines, and costs for 9 major US utilities with deposit estimates and competitive intelligence"
     }
-  }
+  ],
+  "tags": ["data-center", "infrastructure", "power", "utilities", "engineering"],
+  "license": "MIT"
 }
